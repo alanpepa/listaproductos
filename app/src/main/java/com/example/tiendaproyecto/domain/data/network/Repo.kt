@@ -11,8 +11,8 @@ class Repo {
     fun getProductData():LiveData<MutableList<Producto>>{
         val mutableData = MutableLiveData<MutableList<Producto>>()
         FirebaseFirestore.getInstance().collection("Productos").get().addOnSuccessListener { result ->
-            val listData = mutableListOf<Producto>()
-            for (document: QueryDocumentSnapshot in result ){
+            val listData: MutableList<Producto> = mutableListOf<Producto>()
+            for (document: QueryDocumentSnapshot in result){
                 val imageUrl: String? = document.getString("imageUrl")
                 val nombre: String? = document.getString("nombre")
                 val descripcion: String? = document.getString("descripcion")

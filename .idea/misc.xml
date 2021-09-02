@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/esquinas_redondeadas.xml" value="0.209375" />
-        <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/item_row.xml" value="0.18" />
+        <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/item_row.xml" value="0.1" />
+        <entry key="..\:/4/RecyclerViewFirebaseTienda/app/src/main/res/layout/item_row_load.xml" value="0.5" />
       </map>
     </option>
   </component>

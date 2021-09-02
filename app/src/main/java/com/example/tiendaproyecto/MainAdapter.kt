@@ -36,7 +36,7 @@ class MainAdapter(private val context:Context): RecyclerView.Adapter<MainAdapter
 
     inner class MainViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
 
-        fun bindView(producto: Producto){
+        fun bindView(producto:Producto){
             Glide.with(context).load(producto.imageUrl).into(itemView.ImageView)
             itemView.txt_title.text = producto.nombre
             itemView.txt_desc.text = producto.descripcion
